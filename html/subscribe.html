@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturaLana</title>
+    <link href="../css/subscribe.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.jpg" alt="NaturaLana Logo">
+            </div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./allproducts.html">All Products</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+                <li><a href="./subscribe.html">Subscribe</a></li>
+            </ul>
+            <button class="button">&#128722;</button>
+        </nav>
+    </header>
+
+    <section class="subscribe">
+        <h1>Stay in touch with NaturaLana</h1>
+
+
+        <form id="form" action="https://sit.udst.edu.qa/processform.php" method="GET">
+            <div class="input-box">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+
+            <div class="input-box">
+                <label for="username">Username:</label> 
+                <input type="text" id="username" name="username" required><br>
+            </div>
+
+            <div class="input-box">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-box">
+                <label for="re-enter-password">Re-Enter Password:</label>
+                <input type="password" id="re-enter-password" name="re-enter-password" required><br>
+            </div>
+
+            <div class="input-box">
+                <label for="Email">Email:</label>
+                <input type="Email" id="Email" name="Email" required>
+            </div>
+
+            <div class="input-box">
+                <label for="Re-Enter-Email">Re-Enter Email:</label>
+                <input type="Email" id="Re-Enter-Email" name="Re-Enter-Email" required><br>
+            </div>
+
+            <div class="input-box">
+                <label for="Phone-Number">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" value="+974">
+            </div>
+
+            <div class="input-box">
+                <label for="DOB">Date Of Birth:</label>
+                <input type="date" id="DOB" name="DOB" required><br>
+            </div>
+
+            <div class="input-box">
+                <label for="Age">Age</label>
+                <input type="number" id="Age" name="Age" min="0" max="99" required><br>
+            </div>
+
+            <h2>Shipping address</h2>
+            <div class="input-box">
+                <label for="BN">Building number:</label>
+                <input type="number" id="BN" name="BN" min="0" required><br>
+            </div>
+
+            <div class="input-box">
+                <label for="SN">Street name:</label>
+                <input type="text" id="SN" name="SN" required>
+            </div>
+
+            <div class="input-box">
+                <label for="CN">City name:</label>
+                <select name="CN" id="CN">
+                    <option value="Doha">Doha</option>
+                    <option value="Al Wakrah">Al Wakrah</option>
+                    <option value="Al Khor">Al Khor</option>
+                    <option value="Lusail">Lusail</option>
+                </select>
+            </div>
+
+            <div class="news">
+                <label for="news">Subscribe to our news letter</label>
+                <input name="news" id="news" value="true" type="checkbox" checked />
+            </div>
+
+            <div class="form-button">
+                <input class="button" type="reset">
+                <input class="button" type="submit">
+            </div>
+        </form>
+    </section>
+
+    <script src="../Js/subscribe.js" defer></script>
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Back to top &uarr;</button>
+</body>
+
+  
+<footer>
+    <div class="footer-container">
+        <div class="newsletter">
+            <h4>Stay In Touch With NaturaLana♥</h4>
+            <p>Stay in the loop and be the first to get exclusive discounts and new product updates</p>
+            <a href="./subscribe.html">
+                <button class="button">Subscribe</button>
+            </a>
+
+
+        </div>
+        <div class="footer-links">
+            <div class="footer-column">
+                <h5>COMPANY</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="./contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>SHOP</h5>
+                <ul>
+                    <li><a href="./allproducts.html">All</a></li>
+                    <li><a href="#">Bestsellers</a></li>
+                    <li><a href="#">By Category</a></li>
+                    <li><a href="#">By Ingredients</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h5>CUSTOMER CARE</h5>
+                <ul>
+                    <li><a href="./contactus.html">Contact Us</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contact">
+            <h5>NaturaLana INC.</h5>
+            <p class="foot">24449 Arab League St, Doha</p>
+            <button class="button">Follow on shop</button>
+        </div>
+    </div>
+
+    <div class="copyright">&copy; 2025 - NaturaLana Skincare QATAR Powered by UDST</div>
+
+</footer>
+</html>
